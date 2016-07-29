@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>CopenHacks</title>
+
+  <!-- CSS  -->
+  <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link href="styles/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="styles/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="styles/simple-slideshow-styles.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  
+  <nav class="blue" role="navigation">
+    <div class="nav-wrapper container ">
+     
+	  <a id="logo-container" href="#index-banner" class="brand-logo"><span class="above_demo">CopenHacks</span></a>
+      <ul class="right hide-on-med-and-down table-of-contents">
+        <li><a href="#about">About</a></li>
+	<li><a href="#location">Location</a></li>
+	<li><a href="#sponsors">Sponsors</a></li>
+	<li><a href="#faq">FAQ</a></li>
+  <li><a href="#gallery">Gallery</a></li>
+	<li><a href="#register">Register</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav table-of-contents">
+        <li><a href="#about">About</a></li>
+	<li><a href="#location">Locatio</span></a></li>
+	<li><a href="#sponsors">Sponsors</a></li>
+	<li><a href="#faq">FAQ</a></li>
+  <li><a href="#gallery">Gallery</a></li>
+	<li><a href="#register">Register</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse white-text"><i class="mdi-navigation-menu"></i></a>
+    </div>
+  </nav>
+
+  <div id="index-banner" class="parallax-container valign-wrapper scrollspy">
+  	<a id="mlh-trust-badge" style="position:fixed;top:80px;right:50px;max-width:100px;width:10%;min-width: 60px;display:block;z-index:10000" href="https://mlh.io/seasons/s2016-eu/events?utm_source=s2016eu&utm_medium=TrustBadge&utm_campaign=s2016eu" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/s2016.png" alt="MLH Official - Spring 2016" style="width:100%;" ></a>
+    <canvas id="canvas"></canvas>
+    <div class="section no-pad-bot valign">
+      <div class="container">
+	<div class="row center">
+		<img class="main-logo" src="images/cphackslogo.png" alt="main logo">
+
+	</div>
+        <h1 class="header logo-text center white-text"><span class="above_demo">CopenHacks</span></h1>
+	<h4 class="header center col s12 white-text"><span class="trench">April 16th-17th 2016</span></h4>
+        <div class="row center">
+          <h5 class="header col s12 light blue-text"><span class="trench">24 hours of collaboration, sharing, fun, and learning.</span></h5>
+	  <h5 class="header col s12 light blue-text"><span class="trench">Join 100 participants for a weekend of creating innovative technology.</span></h5>
+        </div>
+        <div class="row center">
+	  <a href="#about" id="download-button" class="btn-large waves-effect waves-light grey">Learn more</a>
+          <a href="#register" id="download-button" class="btn-large waves-effect waves-light blue">Register</a>
+<h5 class="header col s12 light blue-text"><span class="trench">Check out pictures from our 2016 event!</span></h5>
+<a href="#gallery" id="download-button" class="btn-large waves-effect waves-light red">Gallery</a>
+        </div>
+      </div>
+    </div>
+    <div class="parallax black"><a class="typeform-share button" href="https://jp73.typeform.com/to/eW6NcB" data-mode="1" target="_blank">Launch me!</a>
+<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()</script>
+
+      
+      <img src="images/cover2.png" alt="Nyhavn Splash">
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div id="about" class="section scrollspy">
+      <div class="row">
+	<h3 class="center"><span class="above_demo">About CopenHacks</span></h3>
+      </div>
+      
+      <!--   Icon Section   -->
+      <div class="row valign-wrapper">
+	
+        <div class="col s12 ">
+          <div class="icon-block">
+	    <p> The idea for CopenHacks came in mid-2015 by a student at the Technical University of Denmark (DTU): A Copenhagen Hackathon that would take place near the university, that had a focus on learning and fun, and that would be open to anyone interested in playing with innovative solutions and building awesome stuff. It would differ from other local Hackathons in that it would not ask participants/students to build on existing solutions or work on specific sponsor programs to solve a company´s specific pressing issue. Rather, the Hackathon would be focused on getting to meet fellow hackers, dedicate 24 hours on that one great idea, and give a weekend of opportunities to learn from the best.
+	    </p>
+	  	<p> CopenHacks was conceived with the intention of having both local and international students from many different backgrounds to come together to work on any project they like, using whichever tech they like, with the hopes of starting a more progressive, inviting, supportive, and enriching 'hacker' culture in Denmark.
+	    </p>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+  </div>
+
+<div class="container">
+      <div class="row">
+	<h3 class="center"><span class="above_demo">What is CopenHacks?</span></h3>
+      </div>
+      
+      <!--   Icon Section   -->
+      <div class="row valign-wrapper">
+
+	
+	
+	<div class="col s12 m6">
+          <div class="icon-block">
+            <img class="z-depth-2" src="images/showoff1.jpg">
+          </div>
+        </div>
+	
+        <div class="col s12 m6 valign">
+          <div class="icon-block">
+	    <p>
+	      <h5>24h of Hacking!</h5> Have you ever wanted to code a great idea but haven't been able to set aside the time to actually build it? Or perhaps you had a fantastic idea but lacked the technical ability to code it yourself. Now you have the chance to dedicate 24 hours on this project or idea. The only condition is: You will only be judged on what you write within these 24 hours.
+	    </p>
+	    <p>
+        <h5>Meet fellow hackers!</h5> Meet the love of your life! Or (more realistically) meet other fellow programmers and tech enthusiats from all over the world! Share knowledge, learn how to build awesome stuff, create friendships, or even find your potential future business partner, blow the world away with your innovative new idea.
+    	</p>
+          </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+      <div class="row valign-wrapper">
+
+	
+        <div class="col s12 m6 valign">
+          <div class="icon-block">
+        <h5>Prizes and Freebies!</h5> SHWAAG! So much SWAG. Thanks to the support from our lovely sponsors there will be a variety of great prizes. Even if you don't win, everyone is guaranteed to receive some cool stuff just for participating.
+    	</p>
+        <p>
+        <h5>Career Opportunities!</h5> Get the unique opportunity to meet some of the engineers and recruiters from Microsoft as well as other sponsors. Expand your network, make contacts, and get the chance to potentially interview with some of these incredibly talented people.
+	    </p>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="icon-block">
+            <img class="z-depth-2" src="images/showoff2.jpg">
+          </div>
+        </div>
+
+</div>
+</div>
+
+  <div class="parallax-container valign-wrapper">
+    <div class="parallax black"><img src="images/concept.jpg" alt="Welcome to the Microsoft Development Center Copenhagen!"></div>
+  </div>
+  <!-- <iframe width='100%' height='500px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/tfogo.m58ffgbg/attribution,zoompan,geocoder.html?access_token=pk.eyJ1IjoidGZvZ28iLCJhIjoiQnB4am9CSSJ9.GJfl9aBHlFYkrXTWjQpjDw'></iframe> -->
+
+<div class="container">
+    <div id="location" class="section no-pad-bot scrollspy">
+      <!--   Icon Section   -->
+      <div class="container">
+      <div class="row">
+	<h3 class="center"><span class="above_demo">Where does CopenHacks take place?</span></h3>
+      </div>
+      
+      <!--   Icon Section   -->
+      <div class="row valign-wrapper">
+
+	<div class="col s12 m6">
+          <div class="icon-block">
+            <img class="z-depth-2" src="images/building.jpg">
+          </div>
+        </div>
+	
+        <div class="col s12 m6 valign">
+          <div class="icon-block">
+	    <p>
+	      CopenHacks takes place inside the fancy, new, Microsoft building in Kongens Lyngby, Copenhagen, Denmark (that also houses the Microsoft Development Center). The building is the workplace of hundreds of Microsoft employees from all over the world, and the facilities are both modern and elegant. The infrastructure is guaranteed to support tons of guests simultaniously connecting the network; there will be plenty of wonderful food and drink; there is even a quiet room to sleep, a locker room with showers, a gaming area with xboxes and kinects, and if that is not enough, the building is in the heart of Lyngby, a beautiful area full of shops, restaurants, and even a cinema close to the local Technical University.
+
+    	</p>
+          </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+  <div class="parallax-container valign-wrapper">
+    <div class="parallax black"><img src="images/concept2.jpg" alt="Welcome to the Microsoft Development Center Copenhagen!"></div>
+  </div>
+  <!-- <iframe width='100%' height='500px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/tfogo.m58ffgbg/attribution,zoompan,geocoder.html?access_token=pk.eyJ1IjoidGZvZ28iLCJhIjoiQnB4am9CSSJ9.GJfl9aBHlFYkrXTWjQpjDw'></iframe> -->
+</div>
+
+  <div class="container">
+    <div id="sponsors" class="section sponsorships scrollspy">
+
+      <div class="row">
+      	<div class="col s12 center">
+      		<h2 class="center blue-text"><span class="above_demo">Hosted by</span></h2>
+      	</div>
+      </div>
+      <div class="row valign-wrapper">
+	<div class="col s12 center valign">
+	  <img src="images/Microsoft_logo.svg">
+	</div>
+	</div>
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3 class="center blue-text"><span class="above_demo">Sponsored by</span></h3>
+        </div>
+      </div>
+      <div class="row valign-wrapper">
+        
+  <!--<div class="col s12 m6 center valign">
+    <img src="Press-Play-Logo_Black.png">
+  </div>-->
+	<div class="col s12 m3 center valign">
+	  <img src="images/Bloomberg_logo.svg">
+	</div>
+	<div class="col s12 m3 center valign">
+	  <img src="images/AWS_logo.png">
+	</div>
+  <div class="col s12 m3 center valign">
+    <img src="images/tech_logo_with_tagline_600px.png">
+  </div>
+  	<div class="col s12 m3 center valign">
+	  <img src="images/dexiio.png">
+	</div>
+      </div>
+      
+      <div class="partners">
+	<div class="col s12 center">
+          <h4 class="center"><span class="above_demo">In partnership with</span></h4>
+	</div>
+	</div>
+	<div class="row valign-wrapper">
+	
+	<div class="col s12 m4 center valign">
+	  <img src="images/mlhlogo.svg">
+	</div>
+  <div class="col s12 m4 center valign">
+    <img src="images/HE_logo.png">
+  </div>
+  <div class="col s12 m4 center valign">
+    <img src="images/axisray.png">
+  </div>
+      </div>
+      </div>
+
+      <div class="sponsor-cta">
+	<div class="col s12 center">
+          <h5 class="center">Interested in joining our amazing sponsors?</h5>
+	  <a target="_blank" href="copenhacks_sponsor_general.pdf" id="download-button" class="btn-large waves-effect waves-light blue">Find out more</a>
+	</div>
+      </div>
+      
+    </div>
+  </div>
+
+  <div class="container">
+    <div id="faq" class="section faq scrollspy">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h2 class="center black-text"><span class="above_demo">Frequently Asked Questions</span></h2>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col s12 m6">
+	  
+	  <div class="card">
+            <div class="card-image valign-wrapper">
+              <img src="images/card1.jpg">
+              <span class="card-title"><strong>What is a Hackathon?</strong></span>
+            </div>
+            <div class="card-content">
+              <p>Hackathons are weekend-long technology festivals. Hundreds of passionate students come together, form teams, share ideas, and help each other build innovative applications. It's a fantastic opportunity to meet new people, learn from mentors, and make cool stuff. They're very beginner friendly. Everybody is there to help each other and have fun.</p>
+            </div>
+           	<div class="card-action">
+              <a target="_blank" href='https://medium.com/hackathons-anonymous/wtf-is-a-hackathon-92668579601'>Learn more about hackathons here</a>
+            </div>
+          </div>
+
+	  <div class="card">
+            <div class="card-image valign-wrapper">
+              <img src="images/card3.jpg">
+              <span class="card-title"><strong>What are the judging criteria?</strong></span>
+            </div>
+            <div class="card-content">
+              <p>Projects will be judged based on creativity, technical difficulty, polish and usefulness by a panel of industry judges and Microsoft employees.</p>
+          </div>
+
+	  <div class="card">
+            <div class="card-image valign-wrapper">
+              <img src="images/card7.jpg">
+              <span class="card-title"><strong>What is Major League Hacking?</strong></span>
+            </div>
+            <div class="card-content">
+              <p>Major League Hacking is the university hackathon league. They help support over 150 student hackathons every year across North America and Europe.</p>
+            </div>
+	    <div class="card-action">
+              <a target="_blank" href='https://mlh.io'>Find out more on the MLH Website</a>
+            </div>
+          </div>
+
+	  <div class="card">
+            <div class="card-image valign-wrapper">
+              <img src="images/card5.jpg">
+              <span class="card-title"><strong>Who can attend?</strong></span>
+            </div>
+            <div class="card-content">
+              <p>Any student or recent graduate (up to a year) over 18 years may apply from any university in the world, and you do not need to study in a computer science related field. We are also looking for mentors with hackathon experience. If you’re interested, please contact us via <a href="mailto:contact@copenhacks.com">contact@copenhacks.com</a>.</p>
+            </div>
+          </div>
+
+	  <div class="card">
+            <div class="card-image valign-wrapper">
+              <img style="align-self: flex-end;" src="card10.jpg">
+              <span class="card-title"><strong>How long can I hack?</strong></span>
+            </div>
+            <div class="card-content">
+              <p>You'll have a straight 24 hours to hack. 12pm to 12pm. You can stay in the venue overnight. You can of course sleep (though many try to stay up as long as possible), and we'll have some fun activities for everybody so you can catch a break.  We'll do our best to make nice places for you to crash. You are welcome to leave overnight to sleep in a real bed, but many hackers sleep over at the venue!</p>
+            </div>
+          </div>
+
+	  <div class="card">
+            <div class="card-image valign-wrapper">
+              <img src="images/card11.jpg">
+              <span class="card-title"><strong>Can I start before the event?</strong></span>
+            </div>
+            <div class="card-content">
+              <p>No. Doing that immediately disqualifies you from winning any prizes. You can think of ideas, just don't start building them. You can of course use libraries, frameworks, and templates.</p>
+            </div>
+          </div>
+	  </div>
+	</div>
+
+	<div class="col s12 m6">
+	  
+	  <div class="card">
+            <div class="card-image valign-wrapper">
+              <img src="images/card2.jpeg">
+              <span class="card-title"><strong>I'm a beginner and I can't code. Can I still come?</strong></span>
+            </div>
+            <div class="card-content">
+              <p>Yes! Of course! <a target="_blank" href="https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000">Hackathons are great for beginners!</a> We'll have mentors on site to teach you lots of new skills and guide you towards creating your first hack. All the students are friendly and willing to help each other out. Come along to join the tens of thousands of student hackers worldwide.</p>
+            </div>
+          </div>
+
+	  <div class="card">
+            <div class="card-image valign-wrapper">
+              <img src="images/card4.jpg">
+              <span class="card-title"><strong>What if I don't have (or want) a team?</strong></span>
+            </div>
+            <div class="card-content">
+              <p>You're welcome to make a team before the event, but loads of people come without a team. Don't worry! Part of the fun of a hackathon is meeting new people at the beginning. We will have time at the beginning of the event for everyone to socialize and form teams of up to four people. You could also participate as a Lone Wolf if you like!</p>
+            </div>
+          </div>
+
+	  <div class="card">
+            <div class="card-image valign-wrapper">
+              <img src="images/card6.jpg">
+              <span class="card-title"><strong>Do you provide food and drink?</strong></span>
+            </div>
+            <div class="card-content">
+              <p>Yes! food, drinks, and snacks will be provided by Microsoft.</p>
+            </div>
+          </div>
+
+	  <div class="card">
+            <div class="card-image valign-wrapper">
+              <img src="images/card8.jpeg">
+              <span class="card-title"><strong>How much does it cost?</strong></span>
+            </div>
+            <div class="card-content">
+              <p>Thanks to Microsoft and other sponsors, attendance is completely free, and we will provide you with as much food and drinks as you need. We will even be able to reimburse some of your travel costs, but the exact value of travel reimbursement will be given at a later date.</p>
+            </div>
+          </div>
+
+	  <div class="card">
+            <div class="card-image valign-wrapper">
+              <img src="images/card12.jpg">
+              <span class="card-title"><strong>Is there a code of conduct?</strong></span>
+            </div>
+            <div class="card-content">
+              <p>We are dedicated to providing a fun, harassment-free experience for everyone. We expect all of our attendees, sponsors, volunteers, and staff to be respectful and considerate of others. They are all required to agree with this <a target="_blank" href="http://mlh.io/code-of-conduct">code of conduct</a>. You should read this code. Organizers will enforce it throughout the event.</p>
+            </div>
+          </div>
+
+	  <div class="card">
+            <div class="card-image">
+              <img src="images/card9.jpg">
+              <span class="card-title"><strong>What should I bring?</strong></span>
+            </div>
+            <div class="card-content">
+              <p>Amazing people such as the ones on the picture! All attendees must bring a valid ID for admission. Other items to bring are laptops, mobiles, personal tech, chargers, a sleeping bag, and toiletries. If you want to shower, bring a towel!</p>
+            </div>
+          </div>
+	  
+	</div>
+      </div>
+      
+    </div>
+  </div>
+
+<div class="col s12 center">
+  <div id="gallery" class="section gallery scrollspy">
+<div class="bss-slides num2" tabindex="2">
+  <figure>
+    <img src="images/gallery/DSC_0002.jpg" width="100%" />
+  </figure>
+  <figure>
+    <img src="images/gallery/DSC_0004.jpg" width="100%" />
+  </figure>
+  <figure>
+    <img src="images/gallery/DSC_0006.jpg" width="100%" />
+  </figure>
+  <figure>
+    <img src="images/gallery/DSC_0007.jpg" width="100%" />
+  </figure>
+  <figure>
+    <img src="images/gallery/DSC_0008.jpg" width="100%" />
+  </figure>
+  <figure>
+    <img src="images/gallery/DSC_0011.jpg" width="100%" />
+  </figure>
+  <figure>
+    <img src="images/gallery/DSC_0014.jpg" width="100%" />
+  </figure>
+  <figure>
+    <img src="images/gallery/DSC_0015.jpg" width="100%" />
+  </figure>
+  <figure>
+    <img src="images/gallery/DSC_0017.jpg" width="100%" />
+  </figure>
+  <figure>
+    <img src="images/gallery/DSC_0018.jpg" width="100%" />
+  </figure>
+  <figure>
+    <img src="images/gallery/DSC_0019.jpg" width="100%" />
+  </figure>
+  <figure>
+    <img src="images/gallery/DSC_0021.jpg" width="100%" />
+  </figure>
+  <figure>
+    <img src="images/gallery/DSC_0025.jpg" width="100%" />
+  </figure>
+  <figure>
+    <img src="images/gallery/DSC_0026.jpg" width="100%" />
+  </figure>
+  <figure>
+    <img src="images/gallery/DSC_0027.jpg" width="100%" />
+  </figure>
+  <figure>
+    <img src="images/gallery/DSC_0030.jpg" width="100%" />
+  </figure>
+  <figure>
+    <img src="images/gallery/DSC_0032.jpg" width="100%" />
+  </figure>
+  <figure>
+    <img src="images/gallery/DSC_0035.jpg" width="100%" />
+  </figure>
+  <figure>
+    <img src="images/gallery/DSC_0036.jpg" width="100%" />
+  </figure>
+  <figure>
+    <img src="images/gallery/DSC_0037.jpg" width="100%" />
+  </figure>
+  <figure>
+    <img src="images/gallery/DSC_0040.jpg" width="100%" />
+  </figure>
+  <figure>
+    <img src="images/gallery/DSC_0041.jpg" width="100%" />
+  </figure>
+  <figure>
+    <img src="images/gallery/DSC_0043.jpg" width="100%" />
+  </figure>
+  <figure>
+    <img src="images/gallery/DSC_0046.jpg" width="100%" />
+  </figure>
+  <figure>
+    <img src="images/gallery/DSC_0047.jpg" width="100%" />
+  </figure>
+  <figure>
+    <img src="images/gallery/DSC_0049.jpg" width="100%" />
+  </figure>
+  <figure>
+    <img src="images/gallery/DSC_0051.jpg" width="100%" />
+  </figure>
+  <figure>
+    <img src="images/gallery/DSC_0052.jpg" width="100%" />
+  </figure>
+  <figure>
+    <img src="images/gallery/DSC_0054.jpg" width="100%" />
+  </figure>
+  <figure>
+    <img src="images/gallery/DSC_0055.jpg" width="100%" />
+  </figure>
+  <figure>
+    <img src="images/gallery/DSC_0057.jpg" width="100%" />
+  </figure>
+  <figure>
+    <img src="images/gallery/DSC_0058.jpg" width="100%" />
+  </figure>
+  <figure>
+    <img src="images/gallery/DSC_0059.jpg" width="100%" />
+  </figure>
+  <figure>
+    <img src="images/gallery/DSC_0060.jpg" width="100%" />
+  </figure>
+  <figure>
+    <img src="images/gallery/DSC_0063.jpg" width="100%" />
+  </figure>
+    <figure>
+    <img src="images/gallery/DSC_0064.jpg" width="100%" />
+  </figure>
+    <figure>
+    <img src="images/gallery/DSC_0065.jpg" width="100%" />
+  </figure>
+    <figure>
+    <img src="images/gallery/DSC_0066.jpg" width="100%" />
+  </figure>
+    <figure>
+    <img src="images/gallery/DSC_0067.jpg" width="100%" />
+  </figure>
+    <figure>
+    <img src="images/gallery/DSC_0072.jpg" width="100%" />
+  </figure>
+    <figure>
+    <img src="images/gallery/DSC_0074.jpg" width="100%" />
+  </figure>
+    <figure>
+    <img src="images/gallery/DSC_0077.jpg" width="100%" />
+  </figure>
+    <figure>
+    <img src="images/gallery/DSC_0078.jpg" width="100%" />
+  </figure>
+    <figure>
+    <img src="images/gallery/DSC_0080.jpg" width="100%" />
+  </figure>
+    <figure>
+    <img src="images/gallery/DSC_0081.jpg" width="100%" />
+  </figure>
+    <figure>
+    <img src="images/gallery/DSC_0082.jpg" width="100%" />
+  </figure>
+    <figure>
+    <img src="images/gallery/DSC_0085.jpg" width="100%" />
+  </figure>
+    <figure>
+    <img src="images/gallery/DSC_0087.jpg" width="100%" />
+  </figure>
+    <figure>
+    <img src="images/gallery/DSC_0089.jpg" width="100%" />
+  </figure>
+    <figure>
+    <img src="images/gallery/DSC_0090.jpg" width="100%" />
+  </figure>
+    <figure>
+    <img src="images/gallery/DSC_0092.jpg" width="100%" />
+  </figure>
+    <figure>
+    <img src="images/gallery/DSC_0093.jpg" width="100%" />
+  </figure>
+    <figure>
+    <img src="images/gallery/DSC_0094.jpg" width="100%" />
+  </figure>
+    <figure>
+    <img src="images/gallery/DSC_0095.jpg" width="100%" />
+  </figure>
+    <figure>
+    <img src="images/gallery/DSC_0097.jpg" width="100%" />
+  </figure>
+    <figure>
+    <img src="images/gallery/DSC_0098.jpg" width="100%" />
+  </figure>
+    <figure>
+    <img src="images/gallery/DSC_0099.jpg" width="100%" />
+  </figure>
+    <figure>
+    <img src="images/gallery/DSC_0100.jpg" width="100%" />
+  </figure>
+      <figure>
+    <img src="images/gallery/DSC_0101.jpg" width="100%" />
+  </figure>
+      <figure>
+    <img src="images/gallery/DSC_0102.jpg" width="100%" />
+  </figure>
+      <figure>
+    <img src="images/gallery/DSC_0103.jpg" width="100%" />
+  </figure>
+      <figure>
+    <img src="images/gallery/DSC_0104.jpg" width="100%" />
+  </figure>
+      <figure>
+    <img src="images/gallery/DSC_0107.jpg" width="100%" />
+  </figure>
+      <figure>
+    <img src="images/gallery/DSC_0109.jpg" width="100%" />
+  </figure>
+      <figure>
+    <img src="images/gallery/DSC_0110.jpg" width="100%" />
+  </figure>
+      <figure>
+    <img src="images/gallery/DSC_0111.jpg" width="100%" />
+  </figure>
+      <figure>
+    <img src="images/gallery/DSC_0112.jpg" width="100%" />
+  </figure>
+      <figure>
+    <img src="images/gallery/DSC_0113.jpg" width="100%" />
+  </figure>
+      <figure>
+    <img src="images/gallery/DSC_0114.jpg" width="100%" />
+  </figure>
+      <figure>
+    <img src="images/gallery/DSC_0118.jpg" width="100%" />
+  </figure>
+      <figure>
+    <img src="images/gallery/DSC_0119.jpg" width="100%" />
+  </figure>
+      <figure>
+    <img src="images/gallery/DSC_0122-2.jpg" width="100%" />
+  </figure>
+  <!--
+  <figure>
+      <img src="http://themarklee.com/wp-content/uploads/2013/12/snowying.jpg" width="100%" /> 
+   </figure>
+    <figure>
+        <img src="http://themarklee.com/wp-content/uploads/2013/12/starlight.jpg" width="100%" /> 
+   </figure>-->
+</div>
+</div>
+
+  <div class="container">
+    <div id="register" class="section scrollspy">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h2 class="center blue-text">Register</h2>
+          <a id="download-button" class="typeform-share btn-large waves-effect waves-light blue" href="https://jp73.typeform.com/to/eW6NcB" data-mode="1" target="_blank">Register!</a>
+<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()</script>
+
+
+
+	  <h4 class="center">Registrations are closed.</h4>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="scripts/materialize.js"></script>
+  <script src="scripts/init.js"></script>
+  <script src="scripts/drawworm.js"></script>
+
+  <script src="scripts/better-simple-slideshow.min.js"></script>
+<script>
+var opts = {
+    auto : false,
+    fullScreen : true,
+    swipe : false
+};
+makeBSS('.num2', opts);
+</script>
+
+  </body>
+</html>
